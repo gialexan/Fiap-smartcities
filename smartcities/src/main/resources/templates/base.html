@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- Expression "~{..}" funciona como ligação entre um template e a página 
+		 que a utiliza no case base.html é injetado acima-->
+		 
+<!-- Expression "@{..}" cuidada geração de rotas dinâmicas -->
+
+<!-- Expression "${..}"" faz referência a uma variável que veio do sistema, a qual foi 
+			 exportada pelo método model.addAttributeno Controller -->
+
+<!-- Expression "*{..}" é um seletor que chama uma variável que está contida dentro de outro objeto -->
+
+<!-- Expression "#{..}" é responsável pela exibição de mensagens -->
+
+<!-- Expression "#{..}" tem dois submódulos "#temporals" responsável por colocar a máscara dd/MM/yyyy
+			e "#numbers" responsável por preço do produto até os centavos -->
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org" 
+xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<!-- A taglib acima "layout" é reponsável por habilitar uso template -->
+<head>
+	<meta charset="UTF-8">
+	<title layout:title-pattern="$LAYOUT_TITLE | $CONTENT_TITLE">FIAP</title>
+	<!-- Dependência do WebJars integrado com bootstrap css -->
+	<link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" rel="stylesheet" />
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">Fiap Store</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <!-- <li class="nav-item active">
+	        <a class="nav-link" href='<c:url value="/"/>'>Home</a>
+	      </li> -->
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Store
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href=/produto/cadastrar>Cadastrar</a>
+	          <a class="dropdown-item" href=/produto/listar>Listar</a>
+	        </div>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+	<div class="container">
+		<div layout:fragment="conteudo"></div>
+	</div>
+	<hr>
+	<div layout:fragment="rodape"></div>
+	<!-- Dependência do WebJars integrado com bootstrap jquery e js -->
+	<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+	<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+</body>
+</html>
