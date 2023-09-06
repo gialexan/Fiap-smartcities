@@ -1,10 +1,10 @@
-package br.com.fiap.spring.boot.repository;
+package br.com.fiap.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import br.com.fiap.spring.boot.entity.Produto;
+import br.com.fiap.entity.Produto;
 
 /*
  * Nomenclatura:

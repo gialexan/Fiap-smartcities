@@ -1,4 +1,4 @@
-package br.com.fiap.spring.boot.exemplo;
+package br.com.fiap.smartcities;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

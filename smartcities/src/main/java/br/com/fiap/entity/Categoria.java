@@ -1,4 +1,4 @@
-package br.com.fiap.spring.boot.entity;
+package br.com.fiap.entity;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;

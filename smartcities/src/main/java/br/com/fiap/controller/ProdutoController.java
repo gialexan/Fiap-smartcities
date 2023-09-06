@@ -1,4 +1,4 @@
-package br.com.fiap.spring.boot.controller;
+package br.com.fiap.controller;
 
 import javax.validation.Valid;
 
@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import br.com.fiap.spring.boot.entity.Produto;
-import br.com.fiap.spring.boot.repository.CategoriaRepository;
-import br.com.fiap.spring.boot.repository.ProdutoRepository;
+import br.com.fiap.entity.Produto;
+import br.com.fiap.repository.CategoriaRepository;
+import br.com.fiap.repository.ProdutoRepository;
 
 /*
  * A notação "@Controller" informa ao Spring que esta classe possui um 

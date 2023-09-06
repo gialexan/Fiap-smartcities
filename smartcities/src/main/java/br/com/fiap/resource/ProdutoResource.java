@@ -1,4 +1,4 @@
-package br.com.fiap.spring.boot.resource;
+package br.com.fiap.resource;
 
 import java.util.List;
 
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.fiap.spring.boot.entity.Produto;
-import br.com.fiap.spring.boot.repository.ProdutoRepository;
+import br.com.fiap.entity.Produto;
+import br.com.fiap.repository.ProdutoRepository;
 
 /*
  * 
