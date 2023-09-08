@@ -21,6 +21,9 @@ Este projeto foi concebido como uma ferramenta de aprendizado para a construçã
 ### Banco de dados
 - H2 database
 
+### Testes
+- Postman
+
 ## Updating
 
 The project is updated regularly with new functions that could be useful for other projects.
