@@ -24,11 +24,11 @@ Este projeto foi concebido como uma ferramenta de aprendizado para a construçã
 ### Testes
 - Postman
 
-## Updating
+## Atualizações
 
-The project is updated regularly with new functions that could be useful for other projects.
+O projeto é regularmente atualizado com novas funções que podem ser úteis para outros projetos.
 
 ---
 
 Made by:<br />
-Gilmar Alexandro Romani 👋 [See my linkedin](https://www.linkedin.com/in/gilmar-romani/)
+Gilmar Alexandro Romani 👋 [Veja meu LinkedIn](https://www.linkedin.com/in/gilmar-romani/)
