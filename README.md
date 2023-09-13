@@ -26,7 +26,7 @@ Este projeto foi concebido como uma ferramenta de aprendizado para a construçã
 
 ## Atualizações
 
-O projeto é regularmente atualizado com novas funções que podem ser úteis para outros projetos.
+O projeto é regularmente atualizado com correções de bugs e otimizações de código.
 
 ---
 
