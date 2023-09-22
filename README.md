@@ -30,5 +30,5 @@ O projeto é regularmente atualizado com correções de bugs e otimizações de 
 
 ---
 
-Made by:<br />
+Feito por:<br />
 Gilmar Alexandro Romani 👋 [Veja meu LinkedIn](https://www.linkedin.com/in/gilmar-romani/)
